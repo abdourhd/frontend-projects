@@ -14,7 +14,209 @@ const resultMessage = document.getElementById("result-message");
 const restartButton = document.getElementById("restart-btn");
 const progressBar = document.getElementById("progress");
 
-const quizQuestions = [];
+const quizQuestions = [
+  {
+    //1
+    question: "What is the capital of France?",
+    answers: [
+      { text: "London", correct: false },
+      { text: "Berlin", correct: false },
+      { text: "Paris", correct: true },
+      { text: "Madrid", correct: false },
+    ],
+  },
+  {
+    //2
+    question: "Which planet is known as the Red Planet?",
+    answers: [
+      { text: "Earth", correct: false },
+      { text: "Mars", correct: true },
+      { text: "Jupiter", correct: false },
+      { text: "Venus", correct: false },
+    ],
+  },
+  {
+    //3
+    question: "Who wrote Romeo and Juliet?",
+    answers: [
+      { text: "Charles Dickens", correct: false },
+      { text: "Jane Austen", correct: false },
+      { text: "Mark Twain", correct: false },
+      { text: "William Shakespeare", correct: true },
+    ],
+  },
+  {
+    //4
+    question: "What is the largest ocean on Earth?",
+    answers: [
+      { text: "Atlantic Ocean", correct: false },
+      { text: "Indian Ocean", correct: false },
+      { text: "Arctic Ocean", correct: false },
+      { text: "Pacific Ocean", correct: true },
+    ],
+  },
+  {
+    //5
+    question: "What is the chemical symbol for gold?",
+    answers: [
+      { text: "Au", correct: true },
+      { text: "Ag", correct: false },
+      { text: "Fe", correct: false },
+      { text: "Pb", correct: false },
+    ],
+  },
+  {
+    //6
+    question: "How many continents are there on Earth?",
+    answers: [
+      { text: "5", correct: false },
+      { text: "6", correct: false },
+      { text: "7", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+  {
+    //7
+    question: "Which country is the home of the pyramid of Giza?",
+    answers: [
+      { text: "Mexico", correct: false },
+      { text: "Egypt", correct: true },
+      { text: "Peru", correct: false },
+      { text: "India", correct: false },
+    ],
+  },
+  {
+    //8
+    question: "What is the fastest land animal?",
+    answers: [
+      { text: "Lion", correct: false },
+      { text: "Horse", correct: false },
+      { text: "Cheetah", correct: true },
+      { text: "Elephant", correct: false },
+    ],
+  },
+  {
+    //9
+    question: "Which language has the most native speakers?",
+    answers: [
+      { text: "Spanish", correct: false },
+      { text: "English", correct: false },
+      { text: "Mandarin", correct: true },
+      { text: "Hindi", correct: false },
+    ],
+  },
+  {
+    //10
+    question: "What is the hardest natural substance on earth?",
+    answers: [
+      { text: "Diamond", correct: true },
+      { text: "Gold", correct: false },
+      { text: "Iron", correct: false },
+      { text: "Platinum", correct: false },
+    ],
+  },
+  {
+    //11
+    question:
+      "Which gas do plants absorb from the atmosphere during photosynthesis?",
+    answers: [
+      { text: "Oxygen", correct: false },
+      { text: "Carbon Dioxide", correct: true },
+      { text: "Nitrogen", correct: false },
+      { text: "Hydrogen", correct: false },
+    ],
+  },
+  {
+    //12
+    question: "Who painted the Mona Lisa?",
+    answers: [
+      { text: "Vincent van Gogh", correct: false },
+      { text: "Pablo Picasso", correct: false },
+      { text: "Leonardo da Vinci", correct: true },
+      { text: "Claude Monet", correct: false },
+    ],
+  },
+  {
+    //13
+    question: "Which is the smallest planet in our solar system?",
+    answers: [
+      { text: "Mars", correct: false },
+      { text: "Venus", correct: false },
+      { text: "Neptune", correct: false },
+      { text: "Mercury", correct: true },
+    ],
+  },
+  {
+    //14
+    question: "What is the main ingredient in guacamole?",
+    answers: [
+      { text: "Tomato", correct: false },
+      { text: "Onion", correct: false },
+      { text: "Avocado", correct: true },
+      { text: "Lime", correct: false },
+    ],
+  },
+  {
+    //15
+    question: "Which element has the chemical symbol 'O'?",
+    answers: [
+      { text: "Oxygen", correct: true },
+      { text: "Gold", correct: false },
+      { text: "Osmium", correct: false },
+      { text: "Oganesson", correct: false },
+    ],
+  },
+  {
+    //16
+    question: "Which is the tallest mountain in the world above sea level?",
+    answers: [
+      { text: "K2", correct: false },
+      { text: "Kilimanjaro", correct: false },
+      { text: "Denali", correct: false },
+      { text: "Mount Everest", correct: true },
+    ],
+  },
+  {
+    //17
+    question: "What is the largest mammal in the world?",
+    answers: [
+      { text: "African Elephant", correct: false },
+      { text: "Blue Whale", correct: true },
+      { text: "Giraffe", correct: false },
+      { text: "Hippopotamus", correct: false },
+    ],
+  },
+  {
+    //18
+    question: "Which country is known as the Land of the Rising Sun?",
+    answers: [
+      { text: "China", correct: false },
+      { text: "Japan", correct: true },
+      { text: "South Korea", correct: false },
+      { text: "North Korea", correct: false },
+    ],
+  },
+  {
+    //19
+    question: "Which instrument has 88 keys?",
+    answers: [
+      { text: "Guitar", correct: false },
+      { text: "Violin", correct: false },
+      { text: "Flute", correct: false },
+      { text: "Piano", correct: true },
+    ],
+  },
+  {
+    //20
+    question: "What is the largest organ in the human body?",
+    answers: [
+      { text: "Heart", correct: false },
+      { text: "Liver", correct: false },
+      { text: "Skin", correct: true },
+      { text: "Lungs", correct: false },
+    ],
+  },
+];
 
 // QUIZ STATE VARS
 let currentQuestionIndex = 0;

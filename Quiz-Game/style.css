@@ -13,11 +13,17 @@
 body {
   background-color: var(--accent-color);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   min-height: 100vh;
   padding: 1rem;
   font-family: sans-serif;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -161,7 +167,15 @@ button:hover {
   border: 2px solid var(--secondary-color);
 }
 
-@media (max-width: 500px) {
+footer {
+  color: var(--secondary-color);
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
   .screen {
     padding: 1rem;
   }

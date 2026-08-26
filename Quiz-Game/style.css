@@ -174,8 +174,14 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+footer a:link {
+  color: #8ab4f8;
+}
+footer a:visited {
+  color: #609;
+}
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .screen {
     padding: 1rem;
   }

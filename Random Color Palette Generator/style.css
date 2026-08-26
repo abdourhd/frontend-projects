@@ -10,10 +10,18 @@
 body {
   background: linear-gradient(135deg, #83a8df, #c3cfe2);
   display: flex;
+  flex-direction: column;
   min-height: 100vh;
+  justify-content: center;
+}
+
+main {
+  flex: 1;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 1.25em;
+  padding-bottom: 0;
 }
 
 .container {
@@ -106,6 +114,20 @@ h1::after {
 }
 .copy-btn:hover {
   color: #667eea;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+footer a:link {
+  color: #1a0dab;
+}
+footer a:visited {
+  color: #609;
 }
 
 @media (max-width: 768px) {

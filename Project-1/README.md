@@ -4,11 +4,11 @@ An interactive **Quiz Game** built with HTML, CSS, and JavaScript. Test your kno
 
 ## Live Demo
 
-**[Play the Quiz]()**
+**[Play the Quiz](https://quiz-game-one-phi.vercel.app)**
 
 ## Preview
 
-![Preview](../assets/preview_1.png)
+![Preview](assets/preview_1.png)
 
 ## Features
 
@@ -35,7 +35,9 @@ Project-1/
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
+├── README.md
+└── assets/
+    └── ...
 ```
 
 ## How It Works

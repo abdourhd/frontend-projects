@@ -6,11 +6,11 @@ Generate beautiful random color palettes with a single click and easily copy ind
 
 ## Live Demo
 
-**[Be an Artist]()**
+**[Be an Artist](https://random-color-palette-generator-eta.vercel.app)**
 
 ## Preview
 
-![Preview](../assets/preview_2.png)
+![Preview](assets/preview_2.png)
 
 ## Features
 
@@ -36,7 +36,9 @@ Project-2/
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
+├── README.md
+└── assets/
+    └── ...
 ```
 
 ## How It Works

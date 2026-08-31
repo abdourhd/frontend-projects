@@ -4,7 +4,7 @@ An interactive **Quiz Game** built with HTML, CSS, and JavaScript. Test your kno
 
 ## Live Demo
 
-**[Play the Quiz](https://quiz-game-steel-ten.vercel.app)**
+**[Play the Quiz](https://quiz-game-iota-umber.vercel.app)**
 
 ## Preview
 

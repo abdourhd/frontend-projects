@@ -6,7 +6,7 @@ Generate beautiful random color palettes with a single click and easily copy ind
 
 ## Live Demo
 
-**[Be an Artist](https://palette-generator-one.vercel.app)**
+**[Be an Artist](https://palette-generator-dun.vercel.app)**
 
 ## Preview
 

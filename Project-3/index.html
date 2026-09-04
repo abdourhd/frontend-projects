@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban Board</title>
+    <meta name="description" content="Organize Your Tasks Efficiently" />
+    <meta
+      name="keywords"
+      content="Kanban, Board, Task Management, Productivity, Organization"
+    />
+    <meta name="author" content="Abdourhd" />
+
+    <meta property="og:title" content="Kanban Board" />
+    <meta property="og:description" content="Organize Your Tasks Efficiently" />
+    <meta property="og:image" content="assets/checklist.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Kanban Board" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/checklist.png" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Simple Kanban Board</h1>
+        <div class="board">
+          <div class="list" id="list1">
+            <h2>To Do</h2>
+            <div class="card" draggable="true" id="card1">Wash Dishes</div>
+            <div class="card" draggable="true" id="card2">Buy Groceries</div>
+          </div>
+          <div class="list" id="list2">
+            <h2>In Progress</h2>
+            <div class="card" draggable="true" id="card3">Learn to Code</div>
+          </div>
+          <div class="list" id="list3">
+            <h2>Done</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -10,7 +10,7 @@ The project allows users to organize tasks into different workflow columns and u
 
 ## Preview
 
-![Preview]()
+![Preview](assets/preview_3.png)
 
 ## Features
 

@@ -6,7 +6,7 @@ The project allows users to organize tasks into different workflow columns and u
 
 ## Live Demo
 
-**[Organize yourself](#)**
+**[Organize yourself](https://kanban-board-sigma-gold.vercel.app)**
 
 ## Preview
 

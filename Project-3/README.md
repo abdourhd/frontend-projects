@@ -6,7 +6,7 @@ The project allows users to organize tasks into different workflow columns and u
 
 ## Live Demo
 
-**[Organize yourself]()**
+**[Organize yourself](#)**
 
 ## Preview
 
@@ -14,9 +14,6 @@ The project allows users to organize tasks into different workflow columns and u
 
 ## Features
 
-- Add new tasks
-- Edit existing tasks
-- Delete tasks
 - Move tasks between columns
 - Organize tasks into:
   - To Do
